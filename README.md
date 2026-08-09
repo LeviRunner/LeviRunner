@@ -26,7 +26,6 @@
 <p>
   <a href="mailto:xnynzn_equal.4@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/matheus-santos-744417421"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://mfp.tec.br/"><img src="https://img.shields.io/badge/DevRank-0B1220?style=for-the-badge&logo=vercel&logoColor=white" alt="DevRank" /></a>
 </p>
 
 ### ✦ Tech Stack & Tools
