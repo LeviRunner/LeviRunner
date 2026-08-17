@@ -13,76 +13,47 @@
 </p>
 
 ---
+<pre>
+.------------------------------------------------------------------------------------------------------------------------------.
+|    Levi Runner                                                                [ levi@user ]                                            |
+'------------------------------------------------------------------------------------------------------------------------------'
+                          __|jxxu__.                         |  Levi Runner@user
+                       \joxgooo@@@@@//                       |  -----------------------------------------------
+                     \xxxooo@@@@@@@@@@//                     |  OS: .............. Windows / Linux
+                    :jxxooooo@@@@@@@@@@@/                    |  Role: ............ DataOps, Cloud, DevOps & Backend
+                   ::jxxoo@o@@o@@@@@@@@@o|                   |  IDE: ............. VSCode, Cursor, Neovim
+                    jjvvvnnaoo@oo@o@@@@@p|                   |  Languages: ....... Python, TypeScript, JavaScript, PHP, SQL, Bash
+                   :j:___..:|xoox:::jjn$o|                   |  Web: ............. HTML5, CSS3, TailwindCSS, React
+                   :::'''!jj:|@gxz!-+vxxo                    |  Backend: ......... Node.js, FastAPI, Streamlit, SQLAlchemy
+                 jj:jj_jxxxjjo@@oguuuugog_,                  |  Cloud: ........... Cloudflare, AWS, Azure, GCP, Terraform
+                 j:jjxoooxxjjo@@@o@@@@@@@o|                  |  Containers: ...... Docker, Kubernetes, Nginx, Linux
+                 !::jxxooxjjva@oo@@@@@@ooo|                  |  Databases: ....... PostgreSQL, MySQL, MongoDB, Redis
+                  j::jxxxxj:::jujo@@@@ooqp`                  |  DevOps: .......... GitHub Actions, Ansible, Git
+                  ': jjjj!::.j:jxxw$o@oxj`                   |  Observability: ... Prometheus, Grafana
+                     ::jj::jjjjxxovjxoxc`                    |
+                      ::jxjj)++1xooujxj`                     |  - Contact ----------------------------------------
+                         !|xxugooonj::`                      |  . Email: .......... xnynzn_equal.4@outlook.com
+                     j.   :!jjxaw=:`\;                       |  . LinkedIn: ....... linkedin.com/in/matheus-santos-744417421
+                    :jj::    :''`:\\o|l/                     |  . GitHub: ......... github.com/LeviRunner
+                 :.j::jjj:::..__uoo@@||o/_                   |  . DevRank: ........ mfp.tec.br
+             ._:::::::jjjjjjjxooo@@@o||ooyxg/_               |
+         ._jjjjj:::::jjjxxxxxxoo@@oo\:|oooxoooog/-.          |
+    .__jjjjjjj::::j:jjjjxxxxxooo@op\:j1ooooooxxxoxoou-_.     |
+ __jjjjjjxjjjjj::jj'   '^1oooooooojjj`  //ooooxxxooooooxu/.  |
+jjjjjjxxxxjjjjj:::..:.    /qoooowjjj_jj:__iooxxxooxoxooqooo/ |
+jjj|xxxxxxxjjjjjjjjjjjjj::::/$xxj:jjxxxxxxxxxxoooxxxoxjooooo |
+jjj:ixxxxxxjjjxxjjjjjjjjjxjj::jjjjxxxxxooxxxxoooxxxxxxuooxoo |
+jjj:|xxxxxxxjjjxxxxxxxjxxxxji_jxxxxxxxooxxxooooxxxxjxxoooooo |
+jjj::xxxxxxxxjjxxxxxxxxxxxx;xxxxxxxxxoxxxxxooooxoxxjxxoxxxxo |
+j:j::jxxxxxxxxjxxxxxxxxxxxx;xxxxxxxxxxxxxxoxxxooxxxxxxxxoxxo |
+</pre>
 
 ### ✦ GitHub Stats
 
-<div data-importer="stats" align="center">
-  <img src="./metrics/stats.svg" alt="stats graph" />
-  <img src="./metrics/languages.svg" alt="languages graph" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=LeviRunner&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeviRunner&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="165" />
 </div>
-
-### ✦ Contact
-
-<p>
-  <a href="mailto:xnynzn_equal.4@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/matheus-santos-744417421"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
-
-### ✦ Tech Stack & Tools
-
-**Languages**
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/SQL-025E8C?style=flat-square&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-</p>
-
-**Backend & Data**
-
-<p>
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-</p>
-
-**Cloud & Infrastructure**
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
-</p>
-
-**DevOps & Automation**
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
-</p>
-
-**Observability**
-
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
-</p>
 
 ---
 
