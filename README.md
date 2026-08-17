@@ -1,5 +1,4 @@
----
-<pre>
+<h1 align="center">
 .------------------------------------------------------------------------------------------------------------------------------.
 |    Levi Runner                                                                [ levi@user ]                                  |
 '------------------------------------------------------------------------------------------------------------------------------'
@@ -32,5 +31,4 @@ jjj:ixxxxxxjjjxxjjjjjjjjjxjj::jjjjxxxxxooxxxxoooxxxxxxuooxoo |
 jjj:|xxxxxxxjjjxxxxxxxjxxxxji_jxxxxxxxooxxxooooxxxxjxxoooooo |
 jjj::xxxxxxxxjjxxxxxxxxxxxx;xxxxxxxxxoxxxxxooooxoxxjxxoxxxxo |
 j:j::jxxxxxxxxjxxxxxxxxxxxx;xxxxxxxxxxxxxxoxxxooxxxxxxxxoxxo |
-</pre>
----
+</h1>
