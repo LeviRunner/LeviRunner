@@ -20,7 +20,7 @@
                          !|xxugooonj::`                      |  . Email: .......... xnynzn_equal.4@outlook.com
                      j.   :!jjxaw=:`\;                       |  . LinkedIn: ....... linkedin.com/in/matheus-santos-744417421
                     :jj::    :''`:\\o|l/                     |  . GitHub: ......... github.com/LeviRunner
-                 :.j::jjj:::..__uoo@@||o/_                   |  . DevRank: ........ mfp.tec.br
+                 :.j::jjj:::..__uoo@@||o/_                   |  . DevRank: ........ https://devrank.com.br/
              ._:::::::jjjjjjjxooo@@@o||ooyxg/_               |
          ._jjjjj:::::jjjxxxxxxoo@@oo\:|oooxoooog/-.          |
     .__jjjjjjj::::j:jjjjxxxxxooo@op\:j1ooooooxxxoxoou-_.     |
