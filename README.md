@@ -7,9 +7,8 @@
 **Dados & Analytics · Business Intelligence · Cloud & DevOps**
 
 Analista de Dados com 5 anos em ambientes de producao, quatro deles em banco de dados com monitoramento de desempenho, alta disponibilidade 24/7 e integridade de base.
-Atuo end-to-end: modelagem dimensional, ETL, SQL e Power BI com DAX, usando Python para automacao e tratamento — levar o dado da origem ate um painel em que o gestor confia, e sustentar o ambiente que roda por tras dele.
+Atuo end-to-end: modelagem dimensional, ETL, SQL e Power BI com DAX, usando Python para automacao e tratamento levar o dado da origem ate um painel em que o gestor confia, e sustentar o ambiente que roda por tras dele.
 
-Sao Paulo e Regiao · hibrido ou remoto
 
 [![DevRank](https://img.shields.io/badge/DevRank-devrank.com.br-3FB950?style=for-the-badge&logo=firefoxbrowser&logoColor=black)](https://devrank.com.br/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheus-santos-744417421)
