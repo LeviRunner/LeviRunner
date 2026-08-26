@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Mapa animado de conexoes entre projetos e stack tecnica">
+  <title>Conexoes entre projetos e stack tecnica</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0d"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00ff66" stroke-width="0.5" opacity="0.06"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style><![CDATA[
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+
+      .card      { fill: #0f1a15; stroke: #00ff66; stroke-width: 1.4; rx: 5; }
+      .bar       { fill: #00ff66; }
+      .card-name { fill: #e6fff0; font-size: 16px; font-weight: 700; letter-spacing: 0.8px; }
+      .card-sub  { fill: #6fbf8f; font-size: 10px; letter-spacing: 0.4px; }
+
+      .node      { fill: #0f1a15; stroke: #00ff66; stroke-width: 1.1; rx: 4; }
+      .node-text { fill: #b8ffd4; font-size: 11px; text-anchor: middle; letter-spacing: 0.4px; }
+
+      .link { fill: none; stroke: #00ff66; stroke-width: 1.5; stroke-linecap: round;
+              stroke-dasharray: 1000; filter: url(#glow); opacity: 0; }
+
+      /* ---- cards: um grupo por projeto ---- */
+      .c1 { animation: n1 20s linear infinite; }
+      .c2 { animation: n2 20s linear infinite; }
+      .c3 { animation: n3 20s linear infinite; }
+      .c4 { animation: n4 20s linear infinite; }
+      .c5 { animation: n5 20s linear infinite; }
+
+      /* ---- linhas: desenho por fase ---- */
+      .l1 { animation: d1 20s linear infinite; }
+      .l2 { animation: d2 20s linear infinite; }
+      .l3 { animation: d3 20s linear infinite; }
+      .l4 { animation: d4 20s linear infinite; }
+      .l5 { animation: d5 20s linear infinite; }
+
+      /* ---- nos simples (uma fase) ---- */
+      .n1 { animation: n1 20s linear infinite; }
+      .n2 { animation: n2 20s linear infinite; }
+      .n3 { animation: n3 20s linear infinite; }
+      .n4 { animation: n4 20s linear infinite; }
+      .n5 { animation: n5 20s linear infinite; }
+
+      /* ---- nos compartilhados entre fases ---- */
+      .n125 { animation: n125 20s linear infinite; }
+      .n14  { animation: n14  20s linear infinite; }
+      .n34  { animation: n34  20s linear infinite; }
+      .n45  { animation: n45  20s linear infinite; }
+
+      @keyframes n1 { 0%,2%{opacity:.28} 5%,17%{opacity:1} 20%,100%{opacity:.28} }
+      @keyframes n2 { 0%,22%{opacity:.28} 25%,37%{opacity:1} 40%,100%{opacity:.28} }
+      @keyframes n3 { 0%,42%{opacity:.28} 45%,57%{opacity:1} 60%,100%{opacity:.28} }
+      @keyframes n4 { 0%,62%{opacity:.28} 65%,77%{opacity:1} 80%,100%{opacity:.28} }
+      @keyframes n5 { 0%,82%{opacity:.28} 85%,97%{opacity:1} 100%{opacity:.28} }
+
+      @keyframes n125 {
+        0%,2%{opacity:.28} 5%,17%{opacity:1} 20%,22%{opacity:.28}
+        25%,37%{opacity:1} 40%,82%{opacity:.28} 85%,97%{opacity:1} 100%{opacity:.28}
+      }
+      @keyframes n14 {
+        0%,2%{opacity:.28} 5%,17%{opacity:1} 20%,62%{opacity:.28}
+        65%,77%{opacity:1} 80%,100%{opacity:.28}
+      }
+      @keyframes n34 {
+        0%,42%{opacity:.28} 45%,57%{opacity:1} 60%,62%{opacity:.28}
+        65%,77%{opacity:1} 80%,100%{opacity:.28}
+      }
+      @keyframes n45 {
+        0%,62%{opacity:.28} 65%,77%{opacity:1} 80%,82%{opacity:.28}
+        85%,97%{opacity:1} 100%{opacity:.28}
+      }
+
+      @keyframes d1 { 0%,3%{stroke-dashoffset:1000;opacity:0} 6%{opacity:1} 15%,18%{stroke-dashoffset:0;opacity:1} 21%,100%{stroke-dashoffset:0;opacity:0} }
+      @keyframes d2 { 0%,23%{stroke-dashoffset:1000;opacity:0} 26%{opacity:1} 35%,38%{stroke-dashoffset:0;opacity:1} 41%,100%{stroke-dashoffset:0;opacity:0} }
+      @keyframes d3 { 0%,43%{stroke-dashoffset:1000;opacity:0} 46%{opacity:1} 55%,58%{stroke-dashoffset:0;opacity:1} 61%,100%{stroke-dashoffset:0;opacity:0} }
+      @keyframes d4 { 0%,63%{stroke-dashoffset:1000;opacity:0} 66%{opacity:1} 75%,78%{stroke-dashoffset:0;opacity:1} 81%,100%{stroke-dashoffset:0;opacity:0} }
+      @keyframes d5 { 0%,83%{stroke-dashoffset:1000;opacity:0} 86%{opacity:1} 95%,98%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:0;opacity:0} }
+
+      .scan { animation: scan 20s linear infinite; }
+      @keyframes scan { 0%{transform:translateY(0)} 100%{transform:translateY(500px)} }
+
+      @media (prefers-reduced-motion: reduce) {
+        .c1,.c2,.c3,.c4,.c5,.n1,.n2,.n3,.n4,.n5,.n125,.n14,.n34,.n45 { animation: none; opacity: 1; }
+        .l1,.l2,.l3,.l4,.l5 { animation: none; opacity: .35; stroke-dashoffset: 0; }
+        .scan { animation: none; }
+      }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <rect width="1200" height="500" fill="url(#grid)"/>
+  <rect class="scan" width="1200" height="2" y="-2" fill="#00ff66" opacity="0.10"/>
+
+  <text class="mono" x="40" y="40" fill="#00ff66" font-size="13" letter-spacing="2">[ LEVI ] ARCHITECTURE MAP</text>
+  <text class="mono" x="1160" y="40" fill="#3d7a57" font-size="12" text-anchor="end">status: online</text>
+  <line x1="40" y1="56" x2="1160" y2="56" stroke="#00ff66" stroke-width="1" opacity="0.25"/>
+
+  <!-- ================= LINHAS ================= -->
+  <!-- Fase 1 : DevRank (y=125) -->
+  <g class="l1">
+    <path class="link" d="M360 125 C 480 125, 540 112, 640 112"/>
+    <path class="link" d="M360 125 C 500 125, 660 112, 775 112"/>
+    <path class="link" d="M360 125 C 520 125, 790 112, 910 112"/>
+    <path class="link" d="M360 125 C 540 125, 920 112, 1045 112"/>
+  </g>
+
+  <!-- Fase 2 : Trilhas Core (y=199) -->
+  <g class="l2">
+    <path class="link" d="M360 199 C 480 199, 540 112, 640 112"/>
+    <path class="link" d="M360 199 C 480 199, 540 207, 640 207"/>
+    <path class="link" d="M360 199 C 500 199, 660 207, 775 207"/>
+    <path class="link" d="M360 199 C 520 199, 790 207, 910 207"/>
+    <path class="link" d="M360 199 C 540 199, 920 207, 1045 207"/>
+  </g>
+
+  <!-- Fase 3 : Cloud & Security (y=273) -->
+  <g class="l3">
+    <path class="link" d="M360 273 C 480 273, 540 302, 640 302"/>
+    <path class="link" d="M360 273 C 500 273, 660 302, 775 302"/>
+    <path class="link" d="M360 273 C 520 273, 790 302, 910 302"/>
+    <path class="link" d="M360 273 C 540 273, 920 302, 1045 302"/>
+  </g>
+
+  <!-- Fase 4 : TechStore (y=347) -->
+  <g class="l4">
+    <path class="link" d="M360 347 C 500 347, 660 112, 775 112"/>
+    <path class="link" d="M360 347 C 480 347, 540 397, 640 397"/>
+    <path class="link" d="M360 347 C 500 347, 660 302, 775 302"/>
+    <path class="link" d="M360 347 C 500 347, 660 397, 775 397"/>
+  </g>
+
+  <!-- Fase 5 : DataLens (y=421) -->
+  <g class="l5">
+    <path class="link" d="M360 421 C 480 421, 540 112, 640 112"/>
+    <path class="link" d="M360 421 C 500 421, 660 397, 775 397"/>
+    <path class="link" d="M360 421 C 520 421, 790 397, 910 397"/>
+    <path class="link" d="M360 421 C 540 421, 920 397, 1045 397"/>
+  </g>
+
+  <!-- ================= CARDS DE PROJETO ================= -->
+  <g class="c1">
+    <rect class="card" x="60" y="95" width="300" height="60"/>
+    <rect class="bar" x="60" y="95" width="4" height="60"/>
+    <text class="mono card-name" x="82" y="122">DevRank</text>
+    <text class="mono card-sub"  x="82" y="141">plataforma de execucao de codigo</text>
+  </g>
+
+  <g class="c2">
+    <rect class="card" x="60" y="169" width="300" height="60"/>
+    <rect class="bar" x="60" y="169" width="4" height="60"/>
+    <text class="mono card-name" x="82" y="196">Trilhas Core</text>
+    <text class="mono card-sub"  x="82" y="215">exercicios multi-linguagem</text>
+  </g>
+
+  <g class="c3">
+    <rect class="card" x="60" y="243" width="300" height="60"/>
+    <rect class="bar" x="60" y="243" width="4" height="60"/>
+    <text class="mono card-name" x="82" y="270">Cloud &amp; Security</text>
+    <text class="mono card-sub"  x="82" y="289">infraestrutura e pipelines</text>
+  </g>
+
+  <g class="c4">
+    <rect class="card" x="60" y="317" width="300" height="60"/>
+    <rect class="bar" x="60" y="317" width="4" height="60"/>
+    <text class="mono card-name" x="82" y="344">TechStore</text>
+    <text class="mono card-sub"  x="82" y="363">e-commerce demo . azure . producao</text>
+  </g>
+
+  <g class="c5">
+    <rect class="card" x="60" y="391" width="300" height="60"/>
+    <rect class="bar" x="60" y="391" width="4" height="60"/>
+    <text class="mono card-name" x="82" y="418">DataLens</text>
+    <text class="mono card-sub"  x="82" y="437">bi e dashboards analiticos</text>
+  </g>
+
+  <!-- ================= NOS DE TECNOLOGIA ================= -->
+  <!-- linha 1 -->
+  <g class="n125"><rect class="node" x="640" y="95" width="118" height="34"/><text class="mono node-text" x="699" y="117">Python</text></g>
+  <g class="n14"> <rect class="node" x="775" y="95" width="118" height="34"/><text class="mono node-text" x="834" y="117">Next.js</text></g>
+  <g class="n1">  <rect class="node" x="910" y="95" width="118" height="34"/><text class="mono node-text" x="969" y="117">Cloudflare</text></g>
+  <g class="n1">  <rect class="node" x="1045" y="95" width="118" height="34"/><text class="mono node-text" x="1104" y="117">Resend</text></g>
+
+  <!-- linha 2 -->
+  <g class="n2"><rect class="node" x="640" y="190" width="118" height="34"/><text class="mono node-text" x="699" y="212">JavaScript</text></g>
+  <g class="n2"><rect class="node" x="775" y="190" width="118" height="34"/><text class="mono node-text" x="834" y="212">Go</text></g>
+  <g class="n2"><rect class="node" x="910" y="190" width="118" height="34"/><text class="mono node-text" x="969" y="212">PHP</text></g>
+  <g class="n2"><rect class="node" x="1045" y="190" width="118" height="34"/><text class="mono node-text" x="1104" y="212">SQL</text></g>
+
+  <!-- linha 3 -->
+  <g class="n3"> <rect class="node" x="640" y="285" width="118" height="34"/><text class="mono node-text" x="699" y="307">AWS</text></g>
+  <g class="n34"><rect class="node" x="775" y="285" width="118" height="34"/><text class="mono node-text" x="834" y="307">Azure</text></g>
+  <g class="n3"> <rect class="node" x="910" y="285" width="118" height="34"/><text class="mono node-text" x="969" y="307">Semgrep</text></g>
+  <g class="n3"> <rect class="node" x="1045" y="285" width="118" height="34"/><text class="mono node-text" x="1104" y="307">Docker</text></g>
+
+  <!-- linha 4 -->
+  <g class="n4"> <rect class="node" x="640" y="380" width="118" height="34"/><text class="mono node-text" x="699" y="402">Node.js</text></g>
+  <g class="n45"><rect class="node" x="775" y="380" width="118" height="34"/><text class="mono node-text" x="834" y="402">PostgreSQL</text></g>
+  <g class="n5"> <rect class="node" x="910" y="380" width="118" height="34"/><text class="mono node-text" x="969" y="402">Streamlit</text></g>
+  <g class="n5"> <rect class="node" x="1045" y="380" width="118" height="34"/><text class="mono node-text" x="1104" y="402">Pandas</text></g>
+
+  <line x1="40" y1="468" x2="1160" y2="468" stroke="#00ff66" stroke-width="1" opacity="0.25"/>
+  <text class="mono" x="40" y="488" fill="#3d7a57" font-size="11" letter-spacing="1">full-stack . cloud infrastructure . data . security</text>
+</svg>
