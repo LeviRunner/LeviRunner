@@ -11,7 +11,7 @@ Atuo end-to-end: modelagem dimensional, ETL, SQL e Power BI com DAX, usando Pyth
 
 
 [![DevRank](https://img.shields.io/badge/DevRank-devrank.com.br-3FB950?style=for-the-badge&logo=firefoxbrowser&logoColor=black)](https://devrank.com.br/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheus-santos-744417421)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/matheus-s-744417421)
 [![Email](https://img.shields.io/badge/Email-Contato-F85149?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:matheus.santos.m2099@outlook.com)
 
 </div>
