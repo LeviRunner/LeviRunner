@@ -27,7 +27,7 @@ Atuo end-to-end: modelagem dimensional, ETL, SQL e Power BI com DAX, usando Pyth
 `Polars` • `pandas` • `DuckDB` • `pandera` • `APScheduler` • `Parquet` • `Pipelines automatizados` • `Qualidade de dados`
 
 **Bancos de Dados**
-`PostgreSQL` • `MySQL` • `MongoDB` • `Redis` • `SQLite` — administracao, tuning de consultas, indexacao, backup e restauracao
+`PostgreSQL` • `MySQL` • `MongoDB` • `Redis` • `SQLite`
 
 **Cloud & Infraestrutura**
 `Azure` • `AWS` • `Google Cloud Platform (GCP)` • `Cloudflare` • `Serverless` • `Terraform` • `Linux` • `Nginx`
