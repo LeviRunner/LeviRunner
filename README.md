@@ -24,19 +24,25 @@ Atuo end-to-end: modelagem dimensional, ETL, SQL e Power BI com DAX, usando Pyth
 `SQL avancado` • `Modelagem dimensional` • `Star schema` • `ETL` • `Power BI` • `DAX` • `Analise exploratoria` • `KPIs`
 
 **Engenharia de Dados**
-`Python` • `Polars` • `pandas` • `DuckDB` • `pandera` • `APScheduler` • `Parquet` • `Pipelines automatizados` • `Qualidade de dados`
+`Polars` • `pandas` • `DuckDB` • `pandera` • `APScheduler` • `Parquet` • `Pipelines automatizados` • `Qualidade de dados`
 
 **Bancos de Dados**
 `PostgreSQL` • `MySQL` • `MongoDB` • `Redis` • `SQLite` — administracao, tuning de consultas, indexacao, backup e restauracao
 
 **Cloud & Infraestrutura**
-`Azure` • `AWS` • `GCP` • `Cloudflare` • `Terraform` • `Linux` • `Nginx`
+`Azure` • `AWS` • `Google Cloud Platform (GCP)` • `Cloudflare` • `Serverless` • `Terraform` • `Linux` • `Nginx`
 
 **Containers & DevOps**
-`Docker` • `Kubernetes` • `GitHub Actions` • `Ansible` • `Git` • `Prometheus` • `Grafana`
+`Docker` • `Kubernetes` • `GitHub Actions` • `CD - Continuous Delivery` • `Ansible` • `Git` • `GitHub` • `Prometheus` • `Grafana` • `Application Performance Monitoring (APM)`
 
-**Desenvolvimento**
-`FastAPI` • `Streamlit` • `SQLAlchemy` • `TypeScript/JavaScript` • `Node.js` • `React` • `PHP`
+**Testes & Qualidade de Software**
+`Automated Tests` • `Unit testing` • `Selenium`
+
+**Desenvolvimento Web & APIs**
+`FastAPI` • `Streamlit` • `SQLAlchemy` • `Node.js` • `React.js`
+
+**Linguagens & Sistemas**
+`Python` • `Go` • `Rust` • `Java` • `C` • `C++` • `C#` • `TypeScript` • `JavaScript` • `HTML` • `PHP`
 
 ---
 
